@@ -51,10 +51,27 @@
         document.write('<style>body{background:url(' + bodyBgs[randomBgIndex] + ') no-repeat 50% 0}</style>');
     //]]>
 </script>
+<script type="text/javascript">
+window.onload = function() {
+    var text = document.querySelector(".text");
+    var btn = document.querySelector(".btn");
+     
+    btn.addEventListener("click", function() {
+        var inputValue = text.value; //获取输入的文本
+        if(inputValue == "galgame") {
+            window.location.href = "http://www.imooc.com";
+        }
+        else {
+        }
+    }, false);
+};
+</script>
 <title>站娘演示</title> <!--网站名字-->
 <link rel="stylesheet" href="css/live2d.css" /> <!--站娘CSS-->
 </head>
 <body>
+<input type="text" class="text">
+<button type="button" class="btn">开始</button>
 <!--站娘开始-->
 <div id="landlord">
     <div class="message" style="opacity:0"></div>
