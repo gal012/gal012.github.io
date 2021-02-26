@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="imagetoolbar" content="no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit">
+<meta name="format-detection" content="telephone=no,email=no,address=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>krkr引擎第一页</title> 
+<link rel="stylesheet" href="css/live2d.css" /> 
+<link rel="stylesheet" href="css/easyhelper.min.css">
+<script src="js/es6-shim.min.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.transit.min.js"></script>
+<script src="js/easyhelper.min.js"></script>
+<style>
+	.wrapper {
+		text-align: center;
+		margin: 50px auto;
+	}
+	.wrapper button {
+		width: 120px;
+		margin: 0 10px;
+	}
+</style>
+<script type="text/javascript">
+    //<!CDATA[
+        var bodyBgs = [];
+        bodyBgs[0] = "img/1.jpg";
+        bodyBgs[1] = "img/2.jpg";
+        bodyBgs[2] = "img/3.jpg";
+        bodyBgs[3] = "img/4.jpg";
+        bodyBgs[4] = "img/5.jpg";
+		bodyBgs[5] = "img/6.jpg";
+		bodyBgs[6] = "img/7.jpg";
+		bodyBgs[7] = "img/8.png";
+		bodyBgs[8] = "img/9.png";
+		bodyBgs[9] = "img/10.jpg";
+		bodyBgs[10] = "img/11.jpg";
+		bodyBgs[11] = "img/12.jpg";
+		bodyBgs[12] = "img/13.jpg";
+		bodyBgs[13] = "img/14.jpg";
+		bodyBgs[14] = "img/15.jpg";
+		bodyBgs[15] = "img/16.jpg";
+		bodyBgs[16] = "img/17.png";
+		bodyBgs[17] = "img/18.png";
+		bodyBgs[18] = "img/19.jpg";
+		bodyBgs[19] = "img/20.jpg";
+		bodyBgs[20] = "img/21.jpg";
+		bodyBgs[21] = "img/22.jpg";
+		bodyBgs[22] = "img/23.jpg";
+		bodyBgs[23] = "img/24.jpg";
+		bodyBgs[24] = "img/25.jpg";
+		bodyBgs[25] = "img/26.jpg";
+		bodyBgs[26] = "img/27.jpg";
+		bodyBgs[27] = "img/28.jpg";
+		bodyBgs[28] = "img/29.jpg";
+		bodyBgs[29] = "img/30.jpg";
+		bodyBgs[30] = "img/31.jpg";
+		bodyBgs[31] = "img/32.jpg";
+		bodyBgs[32] = "img/33.jpg";
+		bodyBgs[33] = "img/34.jpg";
+		bodyBgs[34] = "img/35.jpg";
+		bodyBgs[35] = "img/36.jpg";
+		bodyBgs[36] = "img/37.jpg";
+		bodyBgs[37] = "img/38.jpg";
+		bodyBgs[38] = "img/39.jpg";
+		bodyBgs[39] = "img/40.png";
+		bodyBgs[40] = "img/41.jpg";
+		bodyBgs[41] = "img/42.jpg";
+        var randomBgIndex = Math.round( Math.random() * 41 );
+        document.write('<style>body{background:url(' + bodyBgs[randomBgIndex] + ') no-repeat 50% 0}</style>');
+    //]]>
+</script>
+</head>
+<body>
+<div class="wrapper">
+	<button class="helper-button-info" id="dialog-1">ATRI</button>
+	<button class="helper-button-info" id="dialog-2">braban</button>
+	<button class="helper-button-info" id="dialog-3">Clover Day's</button>
+	<button class="helper-button-info" id="dialog-4">DRACU-RIOT!</button>
+</div>
+<script>
+	$( "#dialog-1" ).on("click", function () {
+		Helper.ui.dialog({
+			title: "ATRI",
+			content: "点确定直接下载,点取消打开百度网盘下载",
+			yesCallback: function () {
+				window.open("https://onedrive.gimhoy.com/sharepoint/aHR0cHM6Ly9haTgxMjAtbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvYWk4MTIwX2FpODEyMF9vbm1pY3Jvc29mdF9jb20vRWNFbGl4RjZPbDlQdnVxSFhhWDE2MzRCcmxUZ0JnaHNuMzNQU0FCXzdsb2xLdw==.zip");
+			},
+			noCallback: function () {
+				alert( "提取码：0h5s" );
+				window.open("https://pan.baidu.com/s/1yQDGw0kbvR35xNuPaZghTQ");
+			}
+		});
+	})
+	$( "#dialog-2" ).on("click", function () {
+		Helper.ui.dialog({
+			title: "braban",
+			content: "点确定直接下载,点取消打开百度网盘下载",
+			yesCallback: function () {
+				window.open("https://onedrive.gimhoy.com/sharepoint/aHR0cHM6Ly9haTgxMjAtbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvYWk4MTIwX2FpODEyMF9vbm1pY3Jvc29mdF9jb20vRVlhUjhJRTFqNVpQbWowSncxeXlVTVFCaTV5QjhDTWpUSVd6QkhwZXkzek1hQT9lPXdnbXM5ZA==.zip");
+			},
+			noCallback: function () {
+				alert( "提取码：jiqt" );
+				window.open("https://pan.baidu.com/s/1AjXmjv2cIVsfm1D7EkF_Uw");
+			}
+		});
+	})
+	$( "#dialog-3" ).on("click", function () {
+		Helper.ui.dialog({
+			title: "Clover Day's",
+			content: "点确定直接下载,点取消打开百度网盘下载",
+			yesCallback: function () {
+				window.open("https://onedrive.gimhoy.com/sharepoint/aHR0cHM6Ly9haTgxMjAtbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvYWk4MTIwX2FpODEyMF9vbm1pY3Jvc29mdF9jb20vRVFUUlJkYmxTcTlKajY0aTdCNG42WDRCcFFpTTU0T2ZUZ0x2eXNxazBmWTVGQT9lPXlYd0J3ZA==.zip");
+			},
+			noCallback: function () {
+				alert( "提取码：rsj2" );
+				window.open("https://pan.baidu.com/s/1MehqkRPQG6ViRVnGJ-vDgg");
+			}
+		});
+	})
+	$( "#dialog-4" ).on("click", function () {
+		Helper.ui.dialog({
+			title: "DRACU-RIOT!",
+			content: "点确定直接下载,点取消打开百度网盘下载",
+			yesCallback: function () {
+				window.open("https://onedrive.gimhoy.com/sharepoint/aHR0cHM6Ly9haTgxMjAtbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvYWk4MTIwX2FpODEyMF9vbm1pY3Jvc29mdF9jb20vRVgxRXRuRkM1YkZEcmpDUmxNNGZFSmtCMGpuRkFDb3BaOWdkTHR2bHlQU2lFUT9lPUkwVTBZMQ==.zip");
+			},
+			noCallback: function () {
+				alert( "提取码：qlr6" );
+				window.open("https://pan.baidu.com/s/1kUEGfCOO4ebDUQsrVd7htA");
+			}
+		});
+	})
+</script>
+<div class="wrapper">
+	<button class="helper-button-info" id="dialog-5">Ｅ×Ｅ</button>
+	<button class="helper-button-info" id="dialog-6">My Sweet Sister</button>
+	<button class="helper-button-info" id="dialog-7">NOBLE☆WORKS</button>
+	<button class="helper-button-info" id="dialog-8">RIDDLEJOKER</button>
+</div>
+<script>
+	$( "#dialog-5" ).on("click", function () {
+		Helper.ui.dialog({
+			title: "Ｅ×Ｅ",
+			content: "点确定直接下载,点取消打开百度网盘下载",
+			yesCallback: function () {
+				window.open("https://onedrive.gimhoy.com/sharepoint/aHR0cHM6Ly9haTgxMjAtbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvYWk4MTIwX2FpODEyMF9vbm1pY3Jvc29mdF9jb20vRVlxTzNKQWtiUk5LbmswSm50SDdhQlFCajZqQUNyczU3Q3VBOWlFYUx3c3lKZz9lPTdqVXVYNQ==.zip");
+			},
+			noCallback: function () {
+				alert( "提取码：3ns0" );
+				window.open("https://pan.baidu.com/s/1cWkhJVkjhJiCJ18JlUXteQ");
+			}
+		});
+	})
+	$( "#dialog-6" ).on("click", function () {
+		Helper.ui.dialog({
+			title: "My Sweet Sister",
+			content: "点确定直接下载,点取消打开百度网盘下载",
+			yesCallback: function () {
+				window.open("https://onedrive.gimhoy.com/sharepoint/aHR0cHM6Ly9haTgxMjAtbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvYWk4MTIwX2FpODEyMF9vbm1pY3Jvc29mdF9jb20vRVNDY3hPMld5Rk5Ea0dnLU54dVBEYlVCMkJRbkVtZ25RV09OOGlrMkhYM0MyUQ==.zip");
+			},
+			noCallback: function () {
+				alert( "提取码：zx44" );
+				window.open("https://pan.baidu.com/s/1ituX5DHvRTjMRDDhhFBvYA");
+			}
+		});
+	})
+	$( "#dialog-7" ).on("click", function () {
+		Helper.ui.dialog({
+			title: "NOBLE☆WORKS",
+			content: "点确定直接下载,点取消打开百度网盘下载",
+			yesCallback: function () {
+				window.open("https://onedrive.gimhoy.com/sharepoint/aHR0cHM6Ly9haTgxMjAtbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvYWk4MTIwX2FpODEyMF9vbm1pY3Jvc29mdF9jb20vRWZ4ektEZVV4VWxLclpERjJCcDNZVlFCaVBUSVB5c0JtTHJoblRISHF0Z3RUdw==.zip");
+			},
+			noCallback: function () {
+				alert( "提取码：1496" );
+				window.open("https://pan.baidu.com/s/1ZXOJVQt8p6qeq9RPiThIEA");
+			}
+		});
+	})
+	$( "#dialog-8" ).on("click", function () {
+		Helper.ui.dialog({
+			title: "RIDDLEJOKER",
+			content: "点确定直接下载,点取消打开百度网盘下载",
+			yesCallback: function () {
+				window.open("https://onedrive.gimhoy.com/sharepoint/aHR0cHM6Ly9haTgxMjAtbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvYWk4MTIwX2FpODEyMF9vbm1pY3Jvc29mdF9jb20vRVJSX1Y2TGVaYlJNcUE2U20yRU5pSVVCSldiTDliMTUtbUJYcC1lWTdYRE9JQT9lPVQ3NjFiWQ==.zip");
+			},
+			noCallback: function () {
+				alert( "提取码：3zqf" );
+				window.open("https://pan.baidu.com/s/1N1X2JZmPFPuoCYI5dm46zQ");
+			}
+		});
+	})
+</script>
+<div class="wrapper">
+	<button class="helper-button-info" id="dialog-9">白恋SAKURA＊GRAM</button>
+	<button class="helper-button-info" id="dialog-10">春音Alice＊Gram</button>
+	<button class="helper-button-info" id="dialog-11">妹抱</button>
+	<button class="helper-button-info" id="dialog-12">魔女的夜宴</button>
+</div>
+<script>
+	$( "#dialog-9" ).on("click", function () {
+		Helper.ui.dialog({
+			title: "白恋SAKURA＊GRAM",
+			content: "点确定直接下载,点取消打开百度网盘下载",
+			yesCallback: function () {
+				window.open("https://onedrive.gimhoy.com/sharepoint/aHR0cHM6Ly9haTgxMjAtbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvYWk4MTIwX2FpODEyMF9vbm1pY3Jvc29mdF9jb20vRVR6YjV2OE9Pa2xDbTZmc2xSUGM5Rm9CbFBPZlFVZkxkbF9naS02bnVZRjR2Zz9lPTN5VzNlUg==.zip");
+			},
+			noCallback: function () {
+				alert( "提取码：07qs" );
+				window.open("https://pan.baidu.com/s/1BPk8lKvX5G007UTZ1xblTQ");
+			}
+		});
+	})
+	$( "#dialog-10" ).on("click", function () {
+		Helper.ui.dialog({
+			title: "春音Alice＊Gram",
+			content: "点确定直接下载,点取消打开百度网盘下载",
+			yesCallback: function () {
+				window.open("https://onedrive.gimhoy.com/sharepoint/aHR0cHM6Ly9haTgxMjAtbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvYWk4MTIwX2FpODEyMF9vbm1pY3Jvc29mdF9jb20vRVNoUXI4TzNEUTFDb2NVMXBtWVd4VmNCOUhWbXg0S282Wi04MmVMNUEwdTRUdz9lPXIyOEsyQw==.zip");
+			},
+			noCallback: function () {
+				alert( "提取码：8425" );
+				window.open("https://pan.baidu.com/s/1U_dWw9gsEpRRi2INX2gobg");
+			}
+		});
+	})
+	$( "#dialog-11" ).on("click", function () {
+		Helper.ui.dialog({
+			title: "妹抱",
+			content: "点确定直接下载,点取消打开百度网盘下载",
+			yesCallback: function () {
+				window.open("https://onedrive.gimhoy.com/sharepoint/aHR0cHM6Ly9haTgxMjAtbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvYWk4MTIwX2FpODEyMF9vbm1pY3Jvc29mdF9jb20vRWRkdzhEWEl6NjVIaUtaVUVUcUZjNkVCRjhWeU5ZYzlVOEpqOFZubXFNOW1SUT9lPUlvQmljdA==.zi");
+			},
+			noCallback: function () {
+				alert( "提取码：rar7" );
+				window.open("https://pan.baidu.com/s/1f-G9uGfd-M8cnA6CuALM4g");
+			}
+		});
+	})
+	$( "#dialog-12" ).on("click", function () {
+		Helper.ui.dialog({
+			title: "魔女的夜宴",
+			content: "点确定直接下载,点取消打开百度网盘下载",
+			yesCallback: function () {
+				window.open("https://onedrive.gimhoy.com/sharepoint/aHR0cHM6Ly9haTgxMjAtbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvYWk4MTIwX2FpODEyMF9vbm1pY3Jvc29mdF9jb20vRVQtMWtiaVQ4bVZNbU1tOTZxSEMwSllCUkp3YXpKYTE2SWtLUU1DcEpDbEk0dz9lPWU4OW9mYg==.zip");
+			},
+			noCallback: function () {
+				alert( "提取码：b9nc" );
+				window.open("https://pan.baidu.com/s/1WWmBlt0-45JPLvtogPUOmA");
+			}
+		});
+	})
+</script>
+<div class="wrapper">
+	<button class="helper-button-info" id="dialog-13">千恋万花</button>
+	<button class="helper-button-info" id="dialog-14">求神太多我的未来糟糕了</button>
+	<button class="helper-button-info" id="dialog-15">死馆</button>
+	<button class="helper-button-info" id="dialog-16">天色幻想岛</button>
+</div>
+<script>
+	$( "#dialog-13" ).on("click", function () {
+		Helper.ui.dialog({
+			title: "千恋万花",
+			content: "点确定直接下载,点取消打开百度网盘下载",
+			yesCallback: function () {
+				window.open("https://onedrive.gimhoy.com/sharepoint/aHR0cHM6Ly9haTgxMjAtbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvYWk4MTIwX2FpODEyMF9vbm1pY3Jvc29mdF9jb20vRVNQdVNOaWFwcXhLZ2Z1Rm1JbTlVRk1CR1lhLWJYQmNLSXZhdlg0WG1QNVVXUT9lPWdHcmM0aQ==.zip");
+			},
+			noCallback: function () {
+				alert( "提取码：b2qq" );
+				window.open("https://pan.baidu.com/s/1_SZCpPvClJrQhMAIGOui4w");
+			}
+		});
+	})
+	$( "#dialog-14" ).on("click", function () {
+		Helper.ui.dialog({
+			title: "求神太多我的未来糟糕了",
+			content: "点确定直接下载,点取消打开百度网盘下载",
+			yesCallback: function () {
+				window.open("https://onedrive.gimhoy.com/sharepoint/aHR0cHM6Ly9haTgxMjAtbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvYWk4MTIwX2FpODEyMF9vbm1pY3Jvc29mdF9jb20vRVdKZW5pZ1IzX0ZMbkFBOXp2RkdIaEVCcXM4bjAzVkFKOVdackgwelN2MXprUT9lPUlMTldIUQ==.zip");
+			},
+			noCallback: function () {
+				alert( "提取码：i0hc" );
+				window.open("https://pan.baidu.com/s/1sNGMbmw8YvxnjAuf__RRCQ");
+			}
+		});
+	})
+	$( "#dialog-15" ).on("click", function () {
+		Helper.ui.dialog({
+			title: "死馆",
+			content: "点确定直接下载,点取消打开百度网盘下载",
+			yesCallback: function () {
+				window.open("https://onedrive.gimhoy.com/sharepoint/aHR0cHM6Ly9haTgxMjAtbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvYWk4MTIwX2FpODEyMF9vbm1pY3Jvc29mdF9jb20vRWVVQWtfcVJ2ZWRJbHRBOGxoYjBJRzRCVE01eHpRUWk0amtqR09zSzQ5SUpnZz9lPVhGVlNoQg==.zip");
+			},
+			noCallback: function () {
+				alert( "提取码：ddve" );
+				window.open("https://pan.baidu.com/s/1g3-DYeUf8MAXMOyWf050pQ");
+			}
+		});
+	})
+	$( "#dialog-16" ).on("click", function () {
+		Helper.ui.dialog({
+			title: "天色幻想岛",
+			content: "点确定直接下载,点取消打开百度网盘下载",
+			yesCallback: function () {
+				window.open("https://onedrive.gimhoy.com/sharepoint/aHR0cHM6Ly9haTgxMjAtbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvYWk4MTIwX2FpODEyMF9vbm1pY3Jvc29mdF9jb20vRVRmSUhjdW9IVjVObGpRNDFkd3Z3alFCZVR3M3Z0bWM1S0lDOWE5OVM1V2NaUT9lPUp3Q0VibQ==.zip");
+			},
+			noCallback: function () {
+				alert( "提取码：e69m" );
+				window.open("https://pan.baidu.com/s/1yiltJzly1MhExrmHwkzpDw");
+			}
+		});
+	})
+</script>
+<div class="wrapper">
+	<button class="helper-button-info" id="dialog-17">天神乱漫</button>
+	<button class="helper-button-info" id="dialog-18">夏空彼方</button>
+	<button class="helper-button-info" id="dialog-19">星光咖啡馆与死神之蝶</button>
+	<button class="helper-button-info" id="dialog-20">櫻舞落花戀模樣</button>
+</div>
+<script>
+	$( "#dialog-17" ).on("click", function () {
+		Helper.ui.dialog({
+			title: "天神乱漫",
+			content: "点确定直接下载,点取消打开百度网盘下载",
+			yesCallback: function () {
+				window.open("https://onedrive.gimhoy.com/sharepoint/aHR0cHM6Ly9haTgxMjAtbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvYWk4MTIwX2FpODEyMF9vbm1pY3Jvc29mdF9jb20vRWQxWWM0TUhLbXhOZ2dlOTAwcExYZFlCTHE2TUgtdGFlRFU4c3ZDNlNZbDB5UT9lPVhYU0JwNA==.zi");
+			},
+			noCallback: function () {
+				alert( "提取码：37pt" );
+				window.open("https://pan.baidu.com/s/1istMbYnLEsCnoUfdgQkbiA");
+			}
+		});
+	})
+	$( "#dialog-18" ).on("click", function () {
+		Helper.ui.dialog({
+			title: "夏空彼方",
+			content: "点确定直接下载,点取消打开百度网盘下载",
+			yesCallback: function () {
+				window.open("https://onedrive.gimhoy.com/sharepoint/aHR0cHM6Ly9haTgxMjAtbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvYWk4MTIwX2FpODEyMF9vbm1pY3Jvc29mdF9jb20vRWF1M3BRNkNXR3RHbE8yb28wRW5vLXdCelFGLVZpQTFmQjdFZWw5Y1ZqWDBUQQ==.zip");
+			},
+			noCallback: function () {
+				alert( "提取码：6bxy" );
+				window.open("https://pan.baidu.com/s/1QfJ5iG859fjQCw0hMqCRmQ");
+			}
+		});
+	})
+	$( "#dialog-19" ).on("click", function () {
+		Helper.ui.dialog({
+			title: "星光咖啡馆与死神之蝶",
+			content: "点确定直接下载,点取消打开百度网盘下载",
+			yesCallback: function () {
+				window.open("https://onedrive.gimhoy.com/sharepoint/aHR0cHM6Ly9haTgxMjAtbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvYWk4MTIwX2FpODEyMF9vbm1pY3Jvc29mdF9jb20vRWJjaTE2MDZ3WEpQaDgwdmdzQUxkOVlCY01hYVJRSHNTclI2ZHVOV29Yb3loZz9lPVVORDNkeA==.zip");
+			},
+			noCallback: function () {
+				alert( "提取码：avjv" );
+				window.open("https://pan.baidu.com/s/1QbyK_zPDKaJlG9HS1RfnbA");
+			}
+		});
+	})
+	$( "#dialog-20" ).on("click", function () {
+		Helper.ui.dialog({
+			title: "櫻舞落花戀模樣",
+			content: "点确定直接下载,点取消打开百度网盘下载",
+			yesCallback: function () {
+				window.open("https://onedrive.gimhoy.com/sharepoint/aHR0cHM6Ly9haTgxMjAtbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvYWk4MTIwX2FpODEyMF9vbm1pY3Jvc29mdF9jb20vRVZMaFAyTTd2YTVLakU2Y051cmtBVVVCUXFvdUlVVC0zWTVfbWlmazBjTHREUT9lPXFodDZTZA==.zip");
+			},
+			noCallback: function () {
+				alert( "提取码：cv51" );
+				window.open("https://pan.baidu.com/s/1e4tMxPNAGxfCbGV38jq8pw");
+			}
+		});
+	})
+</script>
+<div class="wrapper">
+	<button class="helper-button-info" id="dialog-21">真爱百合</button>
+	<button class="helper-button-info" id="dialog-22"></button>
+	<button class="helper-button-info" id="dialog-23"></button>
+	<button class="helper-button-info" id="dialog-24"></button>
+</div>
+<script>
+	$( "#dialog-21" ).on("click", function () {
+		Helper.ui.dialog({
+			title: "真爱百合",
+			content: "点确定直接下载,点取消打开百度网盘下载",
+			yesCallback: function () {
+				window.open("https://onedrive.gimhoy.com/sharepoint/aHR0cHM6Ly9haTgxMjAtbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvYWk4MTIwX2FpODEyMF9vbm1pY3Jvc29mdF9jb20vRVdhSXpjb0lUTTlOczVTeEVpZHlmeHdCZFVwOGliMkhfeDA1dVFqTGZtd3dqdz9lPU9pOHJmaA==.zip");
+			},
+			noCallback: function () {
+				alert( "提取码：ny6y" );
+				window.open("https://pan.baidu.com/s/1SzLPF2mc-Cm19ON70TfuSA");
+			}
+		});
+	})
+	$( "#dialog-22" ).on("click", function () {
+		Helper.ui.dialog({
+			title: "",
+			content: "",
+			yesCallback: function () {
+				window.open("");
+			},
+			noCallback: function () {
+				alert( "" );
+				window.open("");
+			}
+		});
+	})
+	$( "#dialog-23" ).on("click", function () {
+		Helper.ui.dialog({
+			title: "",
+			content: "",
+			yesCallback: function () {
+				window.open("");
+			},
+			noCallback: function () {
+				alert( "" );
+				window.open("");
+			}
+		});
+	})
+	$( "#dialog-24" ).on("click", function () {
+		Helper.ui.dialog({
+			title: "",
+			content: "",
+			yesCallback: function () {
+				window.open("");
+			},
+			noCallback: function () {
+				alert( "" );
+				window.open("");
+			}
+		});
+	})
+</script>
+<div class="wrapper">
+	<button class="" id="dialog-25"></button>
+	<button class="helper-button-info" id="dialog-26">回首页</button>
+	<button class="helper-button-info" id="dialog-27">krkr模拟器</button>
+	<button class="helper-button-info" id="dialog-28">下一页</button>
+</div>
+<script>
+	$( "#dialog-25" ).on("click", function () {
+		Helper.ui.dialog({
+			title: "",
+			content: "",
+			yesCallback: function () {
+				window.location.replace("");
+			},
+		});
+	})
+	$( "#dialog-26" ).on("click", function () {
+		Helper.ui.dialog({
+			title: "回首页",
+			content: "确定返回",
+			yesCallback: function () {
+				window.location.replace("galgame.html");
+			},
+		});
+	})
+	$( "#dialog-27" ).on("click", function () {
+		Helper.ui.dialog({
+			title: "模拟器",
+			content: "点击确定下载 密码:ga7y",
+			yesCallback: function () {
+				window.open("https://ai-8120.lanzoui.com/b0166u7hi");
+			},
+		});
+	})
+	$( "#dialog-28" ).on("click", function () {
+		Helper.ui.dialog({
+			title: "下一页",
+			content: "确定下一页",
+			yesCallback: function () {
+				window.location.replace("krkr1.html");
+			},
+		});
+	})
+</script>
+<div id="landlord">
+    <div class="message" style="opacity:0"></div>
+    <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+    <div class="hide-button">隐藏</div>
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+    var message_Path = 'https://AI-8120.github.io/live2d/'
+    var home_Path = 'https://AI-8120.github.io/'
+</script>
+<script type="text/javascript" src="js/live2d.js"></script>
+<script type="text/javascript" src="js/message.js"></script>
+<script type="text/javascript">
+    loadlive2d("live2d", "https://AI-8120.github.io/live2d/Pio/index.json"); 
+</script>
+</body>
+</html>
